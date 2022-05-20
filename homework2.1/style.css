@@ -1,0 +1,46 @@
+html {
+   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   vertical-align: top;
+}
+
+
+.main__quote {
+   color: chartreuse;
+
+}
+a[href^="https"] {
+   color: crimson;
+}
+.last {
+   background-color: chartreuse;
+}
+ul + p {
+   font-size: 26px;
+}
+h3:first-child {
+   color: pink;
+}
+#greycol {
+   color: grey;
+}
+.text-box div p {
+   color: red;
+}
+.yellow {
+   color: yellow;
+}
+
+.text-box .green {
+   color: green;
+}
